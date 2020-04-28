@@ -56,13 +56,13 @@ function draw(userChoice, compChoice) {
 function getCompChoiceImage(compChoice) {
     switch(compChoice) {
         case 'rock':
-            return "<img src='images/rock.png'></img>"
+            return "<img src='images/rock.png'>"
         
         case 'paper':
-            return "<img src='images/paper.png'></img>"
+            return "<img src='images/paper.png'>"
 
         case 'scissors':
-            return "<img src='images/scissors.png'></img>"
+            return "<img src='images/scissors.png'>"
     }
 }
 
