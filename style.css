@@ -7,14 +7,12 @@
     font-weight: bold;
 }
 
-
 header {
     /*background-color: white;*/
     background: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 23, 206));
     color: white;
     text-align: center;
     padding: 20px;
-
     font-size: 25px;
 }
 
@@ -32,7 +30,7 @@ body {
     width: 150px;
     font-size: 46px;
     padding: 15px 20px;
-    position: relative; /*Everything inside will be comtained inside */
+    position: relative;
 }
 
 .badge {
@@ -43,13 +41,13 @@ body {
 }
 
 #user-label {
-    position: absolute; /*It can overlap any other objects, so you can position it how you like */
+    position: absolute;
     top: 30px;
     left: -25px;
 }
 
 #comp-label {
-    position: absolute; /*It can overlap any other objects, so you can position it how you like */
+    position: absolute;
     top: 30px;
     right: -30px;
 }
@@ -92,7 +90,7 @@ body {
   }
 
 #button {
-    background-color: #E2584D; /* Green */
+    background-color: #E2584D;
     border: none;
     color: white;
     padding: 15px 30px;
@@ -129,10 +127,8 @@ body {
 
 #red-glow {
     color: #cc3232;
-    /*color: #fc121b;*/
 }
 
 #yellow-glow {
     color: #e7b416
-    /*color: #979797;*/
 }

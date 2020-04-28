@@ -23,10 +23,8 @@ function getCompChoice() {
     return choices[index];
 }
 
-function title(string) {
-    console.log(string[0])
-    return `${string[0].toUpperCase()}${string.slice(1)}`;
-}
+//Capitalize
+function title(string) {return `${string[0].toUpperCase()}${string.slice(1)}`;}
 
 function win(userChoice, compChoice) {
     const userChoice_div = document.getElementById(userChoice)
