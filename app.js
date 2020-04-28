@@ -32,7 +32,7 @@ function win(userChoice, compChoice) {
     userScore_span.innerHTML = userScore;
     userChoice_div.classList.add('green-glow');
     setTimeout(() => userChoice_div.classList.remove('green-glow'), 500);
-    result_div.innerHTML = `${title(userChoice)} beats ${title(compChoice)}! <span id="green-glow">You Win!</span>`;
+    result_div.innerHTML = `${title(userChoice)} beats ${title(compChoice)}! <span class="animated fadeIn" id="green-glow">You Win!</span>`;
 }
 
 function lose(userChoice, compChoice) {
@@ -41,14 +41,14 @@ function lose(userChoice, compChoice) {
     compScore_span.innerHTML = compScore;
     userChoice_div.classList.add('red-glow');
     setTimeout(() => userChoice_div.classList.remove('red-glow'), 500);
-    result_div.innerHTML = `${title(compChoice)} beats ${title(userChoice)}! <span id="red-glow">You Lose!</span>`;
+    result_div.innerHTML = `${title(compChoice)} beats ${title(userChoice)}! <spanc class="animated fadeIn" id="red-glow">You Lose!</span>`;
 }
 
 function draw(userChoice, compChoice) {
     const userChoice_div = document.getElementById(userChoice)
     userChoice_div.classList.add('yellow-glow');
     setTimeout(() => userChoice_div.classList.remove('yellow-glow'), 500);
-    result_div.innerHTML = `${title(compChoice)} and ${title(userChoice)}! <span id="yellow-glow">I'ts a draw!</span>`;
+    result_div.innerHTML = `${title(compChoice)} and ${title(userChoice)}! <span class="animated fadeIn" id="yellow-glow">I'ts a draw!</span>`;
 }
 
 function getCompChoiceImage(compChoice) {
