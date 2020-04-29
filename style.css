@@ -9,7 +9,9 @@
 
 header {
     /*background-color: white;*/
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 23, 206));
+    /* background: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 23, 206)); */
+    /* background: #162955; */
+    background: #091E4D;
     color: white;
     text-align: center;
     padding: 20px;
@@ -17,8 +19,10 @@ header {
 }
 
 body {
-    background: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 23, 206));
+    /* background: linear-gradient(to right, rgb(0, 0, 0), rgb(17, 23, 206)); */
     /*background-color: #292C34;*/
+    /* background: #061539; */
+    background: #031131;
 }
 
 .score-board {
@@ -79,7 +83,7 @@ body {
 
 .choice:hover{
     cursor: pointer;
-    background: rgb(1, 37, 114);
+    background: #162955;
     transform: scale(1.1);
     transition: ease 0.5s;
 }
